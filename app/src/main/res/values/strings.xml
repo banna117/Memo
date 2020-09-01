@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Memo</string>
+    <string name="MemoK">MemoK</string>
+    <string name="Load">Load</string>
+    <string name="Save">Save</string>
+    <string name="Delete">Delete</string>
+    <string name="내용을"+" 적어주세요">내용을</string>
 </resources>
