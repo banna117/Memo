@@ -1,0 +1,24 @@
+1일차 월요일 깃을 이용해 깃헙에 push, layout 완성
+1)pull을 할 수 없는 문제 해결 - 과거의 커밋, 푸시 기록과 겹쳐서 생기는 것
+
+2일차 기본적인 안드로이드 스튜디오 파일을 이해하기 위해 자바 클래스부터 공부 시작.
+1) context란 무엇인가? 안드로이드 기능 하나하나를 Activity라고 하는 듯.
+Activity, application을 구별하는 정보가 context라고 이해하면 된다.
+2) hardcoded warning 해결 - strings.xml에 아이디와 함께 글자를 직접 적어준다.
+3) autotext 해결 - 버전 차이로 인해 없어진 한 줄을 지워버렸다. 자동완성기능은 이제 android:inputType = "" 로 대체되었다. 그런데 inputType을 2개 써주는 것은 불가하다.
+
+3일차
+1) missing accessibility 해결 - hint에 내용을 적어주었다.
+2) 시스템 정보를 access하는 프로세스의 경우 항상 context 인스턴스와 그 메서드들을 활용해서 써준다..
+3)예외 처리 - Exception 인스턴스를 생성 후 try catch문을 이용한다.
+e.printStackTrace() - 예외발생당시의 호출 스택에 있었던 메서드의 정보와 예외 메시지를 화면 출력한다.
+e.getMessage() - 발생한 예외 클래스의 인스턴스에 저장된 메시지를 얻을 수 있다.
+4) 스트림.read(bytearray) - 스트림의 내용을 읽어서 bytearray에 집어넣는다.
+5) Toast.makeText(context, message, Toast.LENGTH_LONG or SHORT).show();
+를 이용해서 화면에 글씨를 띄울 수 있다.
+6) 선언부에 EditText, Button을 통해 인스턴스를 만들어낼 수 있다. findViewById(R.id.아이디)
+7) 기본적인 기능 완성 + 저장할 때에 내용이 안 적혀 있으면 저장할 수 없게 해놓았다.
++ 불러올 때 내가 지금까지 저장했던 여러 파일들 중에 하나를 골라서 불러올 수 있게 하고 싶다. 
++ 원하는 것만 골라서 지우게 하고 싶다. 
++ 첫 화면에 내가 지금까지 저장했던 여러 파일들을 띄워주고 그 중에 하나를 골라서 불러올 수 있도록 할 수 있었으면 좋겠다. 
+(자바) 기본적인 입출력 기능 구현과 예외처리에 대해서 공부했다.
