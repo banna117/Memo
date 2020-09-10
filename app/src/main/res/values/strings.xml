@@ -4,5 +4,6 @@
     <string name="Load">Load</string>
     <string name="Save">Save</string>
     <string name="Delete">Delete</string>
-    <string name="내용을"+" 적어주세요">내용을</string>
+    <string name="start">메모장 시작</string>
+    <string name="내용을적어주세요">내용을 적어주세요</string>
 </resources>

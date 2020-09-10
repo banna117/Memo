@@ -14,7 +14,8 @@
         android:text="@string/MemoK"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        />
 
     <Button
         android:id="@+id/loadBtn"
@@ -30,7 +31,8 @@
         app:layout_constraintBottom_toTopOf="@+id/editTextTextMultiLine"
         app:layout_constraintEnd_toStartOf="@+id/deleteBtn"
         app:layout_constraintStart_toEndOf="@+id/saveBtn"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="onClick"/>
 
     <Button
         android:id="@+id/saveBtn"
@@ -46,7 +48,8 @@
         app:layout_constraintBottom_toTopOf="@+id/editTextTextMultiLine"
         app:layout_constraintEnd_toStartOf="@+id/loadBtn"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="onClick"/>
 
     <Button
         android:id="@+id/deleteBtn"
@@ -62,7 +65,8 @@
         app:layout_constraintBottom_toTopOf="@+id/editTextTextMultiLine"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/loadBtn"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="onClick"/>
 
     <EditText
         android:id="@+id/editTextTextMultiLine"
@@ -76,6 +80,7 @@
         android:autofillHints="내용을 적어주세요"
         android:ems="10"
         android:gravity="start|top"
+        android:hint="@string/내용을적어주세요"
         android:inputType="textMultiLine"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
